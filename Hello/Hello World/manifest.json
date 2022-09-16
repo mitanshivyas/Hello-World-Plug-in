@@ -1,0 +1,17 @@
+{
+"manifest_version": 2, //required
+"version": "1.1", //required
+"name": "Hello World!", //required
+"description": "Learning how to make a chrome extension!",
+"icons":
+    {
+        "16": "images/elgato1.png", 
+        "48": "images/elgato2.png",
+        "128": "images/elgato3.png"
+    },
+"browser_action":
+    {
+    "default_icon": "images/elgato1.png",
+    "default_popup": "popup.html"
+    }
+}
